@@ -14,16 +14,15 @@
 name = []
 score = []
 
-
 for _ in range(int(input())):
     name.append(input())
     score.append(float(input()))
-
-print(name)
-print(score)
-
+# print(name)
+# print(score)
 # student = zip(name, score)
 # list(student)
 
 student = [(name[i],score[i]) for i in range(0,len(name))]
-print(student)
+# print(student)
+# print(student[1][0])
+
