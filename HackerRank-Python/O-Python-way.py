@@ -9,7 +9,7 @@ def tree_func(root):
         for f in files:
             line = os.path.join(root, f)
             if "log" in line:
-                print(line)
+                print(line.split('\\'))
             else:
                 print("Doesn't match!")
 
