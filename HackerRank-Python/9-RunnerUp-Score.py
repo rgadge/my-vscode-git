@@ -2,5 +2,5 @@
 # You are given n scores. Store them in a list and find the score of the runner-up.
 
 n = int(input())
-arr = map(int, input().split())
+arr = list(map(int, input().split()))
 print(arr)
