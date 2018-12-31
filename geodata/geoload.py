@@ -16,8 +16,6 @@ if api_key is False:
 else :
     serviceurl = "https://maps.googleapis.com/maps/api/geocode/json?"
 
-#https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyAenQg-8FVGfTxEdlaTAChXStJkZLjf-H0
-
 # Additional detail for urllib
 # http.client.HTTPConnection.debuglevel = 1
 
