@@ -11,8 +11,6 @@ def get_uid(passwd):
             print(uid[2])
         else:
             continue
-            
-
 
 get_uid(passwd)
 
