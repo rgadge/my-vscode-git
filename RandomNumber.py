@@ -17,8 +17,14 @@ for i in range(1, 7):
         continue
     if guessnumber > secretnumber:
         print("Your guess is too high!")
+        continue
     elif guessnumber < secretnumber:
         print("Your guess is too low!")
+        continue
     else:
-        print("You guessed it right in " + str(i) + " guesses!!")
         break
+
+if guessnumber == secretnumber:
+    print("You guessed it right in ", i, " guesses!!")
+else:
+    print("Well tried but you failed to guess the number", secretnumber, "in 6 attemots") 
